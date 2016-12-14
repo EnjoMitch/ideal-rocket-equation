@@ -55,7 +55,7 @@ int main(int argc, const char * argv[])
     NewtonRaphsonRoots nrr;
     const NewtonRaphsonRoots::Result & res = nrr.FindRoots(rpar, opar, vpar);
 
-    // print the solution
+    // print the solution:
     // 'r'   is the orbital radius of the spacecraft at the start of the orbit insertion burn (this can be converted to a time measure.)
     // 'tm'  is the duration (seconds) of the orbit insertion burn
     // 'ecc' is the final orbital eccentricity at the end of the orbit insertion burn.  This should be zero for a circular orbit
