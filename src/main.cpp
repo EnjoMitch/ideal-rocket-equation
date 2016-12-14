@@ -49,7 +49,7 @@ int main(int argc, const char * argv[])
             dE = - (M + E - opar.ecc * sinh(E))/(1 - opar.ecc * cosh(E));
             E += dE;
         }
-        rpar.r = opar.smaj * (1 - opar.ecc * cosh(E));//
+        rpar.r = opar.smaj * (1 - opar.ecc * cosh(E));
     }
 
     NewtonRaphsonRoots nrr;
